@@ -5,7 +5,7 @@ from json import dumps
 
 
 
-db_connect = create_engine('sqlite:////home/anisha/projects/src/github.com/anisharao21/Rest-Api-Test/chinook.db')
+db_connect = create_engine('sqlite:///chinook.db')
 from pprint import pprint
 #pprint(dir(db_connect.table_names))
 app = Flask(__name__)
